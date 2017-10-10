@@ -79,7 +79,7 @@ Crypto-Conditions DEFINITIONS AUTOMATIC TAGS ::= BEGIN
 
     ThresholdFingerprintContents ::= SEQUENCE {
       threshold            INTEGER (1..65535),
-      subconditions        SET OF Condition
+      subconditions2       SET OF Condition
     }
     
     RsaFingerprintContents ::= SEQUENCE {
